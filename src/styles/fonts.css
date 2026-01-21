@@ -1,0 +1,11 @@
+/* Minimal fonts placeholder to satisfy imports.
+   Add your font-face rules or font imports here as needed. */
+
+/* Example fallback font-family */
+:root {
+  --ui-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+html, body {
+  font-family: var(--ui-font);
+}
